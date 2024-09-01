@@ -1,0 +1,107 @@
+{
+    "name" : "Rony J. Letona",
+    "phrase" : "Science is about letting curiosity drive reason into the unknown, and enjoy the journey.",
+    "portfolio" : [
+        {
+            "name" : "Hückel Hamiltonian for Triangulenes and Graphene Nanoislands",
+            "img" : "img/huckel.png",
+            "url" : "https://colab.research.google.com/drive/1GmsTc1IrBkYDEWo2Jvr-YuWrRWGeuj7G?usp=sharing"
+        },
+        {
+            "name" : "1D Hartree-Fock in Python [Spanish]",
+            "img" : "img/hf.png",
+            "url" : "https://colab.research.google.com/drive/1iUl7_UNoWfZ-8QJZiWS5EJlAq1_QtBSO?usp=sharing"
+        },
+        {
+            "name" : "Hydrogen Atom [Spanish]",
+            "img" : "img/hydrogen_wf.png",
+            "url" : "https://colab.research.google.com/drive/1ywBl8WcxBSnrQK8AqvVzA7W1DjNuX27h?usp=sharing"
+        },
+        {
+            "name" : "Wave Functions [Spanish]",
+            "img" : "img/harmonic.png",
+            "url" : "https://colab.research.google.com/drive/1s0to7x9InUVxY2U_8MrwKypZR02UjVDi?usp=sharing"
+        },
+        {
+            "name" : "TraSo - Trajectory Software: CID mass spectra from AIMD",
+            "img" : "img/traso_red.png",
+            "url" : "https://gitlab.com/zronyj/TraSo"
+        },
+        {
+            "name" : "SPA Personal Website: Template for a static personal single-page application",
+            "img" : "img/GiovanniWang.jpg",
+            "url" : "https://github.com/zronyj/spa-personal-website"
+        }
+    ],
+    "research" : [
+        {
+            "name" : "High blocking temperatures for DyScS endohedral fullerene single-molecule magnets",
+            "journal" : "Chemical Science",
+            "issue" : "11 (13129-13136)",
+            "year" : 2020,
+            "doi" : "doi:10.1039/D0SC05265E"
+        }
+    ],
+    "about" : {
+        "bio" : "I consider myself a curious individual with strong personal and professional values. By combining my IT, science, teaching skills and experience, I seek to produce different and innovative results in different areas. I am constantly updating on new trends and technologies into my area of specialty. Always open to listening to others, adapting when change is required and continuously striving to learn something new.",
+        "img" : "img/crystal.jpg",
+        "cv" : {
+            "work" : [
+                {
+                    "entity" : "Avant-garde Materials Simulation Deutschland GmbH",
+                    "position" : "Junior Scientific Software Developer",
+                    "start" : "2023.10.06",
+                    "end" : ""
+                },
+                {
+                    "entity" : "IOCB Prague - Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences",
+                    "position" : "Research Intern",
+                    "start" : "2023.07.01",
+                    "end" : "2023.09.30"
+                },
+                {
+                    "entity" : "The University of Texas at El Paso",
+                    "position" : "Research Intern",
+                    "start" : "2019.05.08",
+                    "end" : "2019.08.18"
+                },
+                {
+                    "entity" : "Universidad de San Carlos de Guatemala",
+                    "position" : "Research/Teaching Assistant",
+                    "start" : "2017.01.01",
+                    "end" : "2018.12.31"
+                },
+                {
+                    "entity" : "Instituto de Nutrición de Centro América y Panamá -INCAP-",
+                    "position" : "Professional Practice",
+                    "start" : "2016.02.01",
+                    "end" : "2016.08.31"
+                }
+            ],
+            "education" : [
+                {
+                    "degree" : "Doctor of Philosophy - PhD, Theoretical Chemistry",
+                    "institution" : "University of Luxembourg",
+                    "year" : 2026
+                },
+                {
+                    "degree" : "Master of Science, Theoretical Chemistry and Computational Modeling",
+                    "institution" : "Universidad Autonoma de Madrid",
+                    "year" : 2023
+                },
+                {
+                    "degree" : "Bachelor in Science: Chemistry",
+                    "institution" : "Universidad de San Carlos de Guatemala",
+                    "year" : 2015
+                }
+            ],
+            "skills" : [
+                "Scientific Computing: QM, MM, and MD packages",
+                "Programming: Python, C++, Fortran, Java, JavaScript, HTML",
+                "Chemistry: organic/inorganic synthesis, general instrumental analysis",
+                "Languages: Spanish, English, German",
+                "Others: problem solving, web development, poetry"
+            ]
+        }
+    }
+}

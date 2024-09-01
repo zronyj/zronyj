@@ -1,0 +1,342 @@
+/* *********************************************** */
+/* Always check the bottom and adjust accordingly! */
+/* *********************************************** */
+
+/* **************** Animations!!! **************** */
+@keyframes smoothlyUp {
+    0% { transform: translateY(10.0000%); opacity: 0.0; }
+    20% { transform: translateY(3.6788%); opacity: 0.2; }
+    40% { transform: translateY(0.4979%); opacity: 0.4; }
+    60% { transform: translateY(0.0674%); opacity: 0.6; }
+    80% { transform: translateY(0.0091%); opacity: 0.8; }
+    100% { transform: translateY(0.0012%); opacity: 1.0; }
+}
+
+/* Make sure to take into account the navbar */
+:target {
+    scroll-margin-top: 56px;
+}
+
+section {
+    padding-top: 56px;
+}
+
+/* ============= Landing page section ============= */
+/* - Background                                     */
+/* - Dimensions                                     */
+/* - Padding                                        */
+#sectionHome {
+    background-image: linear-gradient(45deg, #323280, #a8a7ac, #323280, #000000) !important;
+    color: white;
+    width: 100%;
+    height: 75vh;
+    padding-top: 56px;
+    padding-bottom: 2em;
+}
+
+/* Leave some space to "align to the middle" */
+#sectionHome div .row {
+    padding-top: 10vh;
+}
+
+/* Include image with a relative size */
+/* Keep aspect ratio */
+.pic {
+    height: 45vh;
+    object-fit: contain;
+}
+
+.anipic {
+    animation: 2.5s ease-out 0s 1 smoothlyUp;
+}
+
+/* The first title */
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+/* A catchy phrase to inspire ... */
+.phrase {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* ============== Portfolio section ============== */
+/* - Background                                    */
+/* - Dimensions                                    */
+#sectionPortfolio {
+    width: 100%;
+    background-image: url('../img/crystal_0300.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+/* All second titles */
+h2 {
+    font-size: 2.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding: 0.5em;
+}
+
+/* All items will have the same style!   */
+/* - Background color                    */
+/* - Restrict background to content size */
+/* - Align the text in each box          */
+.portfolioItem {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-clip: content-box;
+    text-align: center;
+}
+
+.portfolioItem:hover {
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+/* Adjust every image accordingly (and leave space) */
+.portfolioImg {
+    width: 16vw;
+    margin-top: 1em;
+    opacity: 0.8;
+}
+
+.portfolioItem:hover .portfolioImg {
+    opacity: 1.0;
+}
+
+/* Adjust every item's text in the box */
+/* - Size of the box for text          */
+/* - Remove hyperlink decorations      */
+/* - Make black and bold               */
+/* - Add some margin                   */
+.portfolioTitle {
+    display: inline-block;
+    width: 16vw;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #404040;
+    margin-bottom: 1em;
+}
+
+.portfolioItem:hover .portfolioTitle {
+    color: #000000;
+}
+
+/* =============== Research section =============== */
+/* - Background color                               */
+#sectionResearch {
+    background-color:aliceblue;
+}
+
+/* Prepare font and padding for the research items */
+.paperItems {
+    padding: 1.3em;
+    font-size: 1.3em;
+}
+
+/* All items will have the same style! */
+/* - Padding on the vertical axis      */
+.paperItem {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* Make the title bold */
+.paperTitle {
+    font-weight: bold;
+}
+
+/* Set the journal in italics */
+.paperJournal {
+    font-style: italic;
+}
+
+/* Change the color of the DOI */
+.paperDOI {
+    color:cadetblue;
+}
+
+/* ================ About section ================ */
+#sectionAbout {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.85),
+        rgba(255, 255, 255, 0.85)
+        ), url('../img/bg2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+/* Leave some margin before every subsection */
+.about .row div {
+    margin-top: 2em;
+}
+
+.bio {
+    background-image: radial-gradient(rgba(255, 255, 248, 0.2), rgba(255,255,255,0.01));
+}
+
+/* Making the font a little bigger for work items */
+.workitems {
+    margin-top: 1em !important;
+    font-size: 1.3em;
+}
+
+/* All items will have the same style! */
+/* - Padding on the vertical axis      */
+.workentry {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+/* Have the position in bold */
+.position {
+    font-weight: bold;
+    color:#000050;
+}
+
+/* Have the company in italics */
+.company {
+    font-style: italic;
+}
+
+/* Re-color the start and end years */
+.startend {
+    color:#6e7575;
+}
+
+/* Making the font a little bigger for work items */
+.eduitems {
+    margin-top: 1em !important;
+    font-size: 1.3em;
+}
+
+/* All items will have the same style! */
+/* - Padding on the vertical axis      */
+.eduentry {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+/* Have the degree in bold */
+.degree {
+    font-weight: bold;
+    color:#005000;
+}
+
+/* Have the university in italics */
+.university {
+    font-style: italic;
+}
+
+/* Re-color the graduation year */
+.year {
+    color: #6e7575;
+}
+
+/* Leaving some space after the end of the section */
+.skills {
+    padding-bottom: 2em;
+}
+
+/* Making the font a little bigger for skill items */
+.skillitems {
+    margin-top: 1em !important;
+    font-size: 1.3em;
+}
+
+/* ================ Contact section =============== */
+#sectionContact {
+    background-color: #bae2ff;
+}
+
+#sectionContact div iframe {
+    width: 100%;
+    height: 900px;
+}
+
+/* =============== Footer section? =============== */
+footer {
+    background-color: #eeeeee;
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+/* *********************************************** */
+/*          Now, let's make it responsive!         */
+/* *********************************************** */
+@media screen and (max-width: 1200px),
+       handheld and (max-width: 1200px) {
+    #sectionHome {
+        height: auto;
+    }
+    #sectionHome div .row {
+        display: flow;
+    }
+    #sectionHome div .row div {
+        width: 100vw;
+        text-align: center;
+    }
+    .pic {
+        width: 50vw;
+        height: auto !important;
+    }
+    .portfolioImg {
+        width: 25vw;
+    }
+    .portfolioTitle {
+        width: 25vw;
+    }
+    .paperItem {
+        font-size: 0.9em;
+    }
+    .biography {
+        display: flow;
+    }
+    .biography div {
+        width: 100vw;
+        text-align: center;
+    }
+    .about .row {
+        display: flow;
+    }
+    .about .row div {
+        width: auto;
+    }
+    #sectionContact div iframe {
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width: 768px),
+       handheld and (max-width: 768px)  {
+    .pic {
+        width: 90vw;
+        height: auto !important;
+    }
+    .portfolioImg {
+        width: 50vw;
+    }
+    .portfolioTitle {
+        width: 50vw;
+    }
+    .paperItem {
+        font-size: 0.7em;
+        white-space: unset;
+    }
+}
